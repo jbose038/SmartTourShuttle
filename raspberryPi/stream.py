@@ -14,10 +14,11 @@ import picamera
 
 # create socket and bind host
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client_socket.connect(('192.168.1.100', 8000))
+client_socket.connect(('192.168.25.9', 1324))
 connection = client_socket.makefile('wb')
 
 try:
+    print('camera...')
     with picamera.PiCamera() as camera:
         camera.resolution = (320, 240)      # pi camera resolution
         camera.framerate = 10               # 10 frames/sec

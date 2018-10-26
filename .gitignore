@@ -1,0 +1,10 @@
+computer/training_data
+computer/training_images
+computer/mlp_xml/*
+computer/etc
+computer/driver_keras.py
+computer/driver_tmp1.py
+computer/prev_driver_code.txt
+computer/computer.zip
+computer/cascade_xml.zip
+RPI_backups
