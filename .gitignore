@@ -1,4 +1,4 @@
-arduino/
+arduino/*
 computer/training_data
 computer/training_images
 computer/mlp_xml/*
@@ -9,5 +9,5 @@ computer/prev_driver_code.txt
 computer/computer.zip
 computer/cascade_xml.zip
 RPI_backups
-test/
-Traffic_signal/
+test/*
+Traffic_signal/*
